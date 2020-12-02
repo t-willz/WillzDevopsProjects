@@ -1,2 +1,3 @@
-# WillzDevopsProjects
-For my Devops Training
+# Sample Application for AWS DevOps Course
+
+#updated this file
