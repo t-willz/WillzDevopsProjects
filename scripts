@@ -1,0 +1,14 @@
+#!/bin/bash
+yum install -y httpd
+
+
+#!/bin/bash
+service httpd start
+
+
+#!/bin/bash
+isExistApp = `pgrep httpd`
+if [[ -n  $isExistApp ]]; then
+    service httpd stop        
+fi
+
